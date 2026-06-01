@@ -1,0 +1,24 @@
+[
+  {
+    "screenId": "0ad6266a37e047159b96959cbcabaa14",
+    "title": "Game Settings - NeonRail Lite",
+    "htmlFile": "0ad6266a37e047159b96959cbcabaa14.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2QyNDk5NmU1NzJkNTQyNjFiOWNhMzc1Mjg2YjBlZTcyEgsSBxCN19Wi9xcYAZIBJAoKcHJvamVjdF9pZBIWQhQxNDU5NTI3MjAzMjk0MzAyODc2Nw&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/neonrail-lite-45b669f3/stitch/0ad6266a37e047159b96959cbcabaa14.html",
+    "surfaceIds": [
+      "SURF_GAME_SETTINGS"
+    ]
+  },
+  {
+    "screenId": "076a00117f23487a86f9dbe677752dd4",
+    "title": "Gameplay - NeonRail Lite",
+    "htmlFile": "076a00117f23487a86f9dbe677752dd4.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzhhMzU3ZjRiZTA4ZTRjNGE5ZDNhZDRkZDQ4MWM3YTg1EgsSBxCN19Wi9xcYAZIBJAoKcHJvamVjdF9pZBIWQhQxNDU5NTI3MjAzMjk0MzAyODc2Nw&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/neonrail-lite-45b669f3/stitch/076a00117f23487a86f9dbe677752dd4.html",
+    "surfaceIds": [
+      "SURF_GAMEPLAY"
+    ]
+  }
+]

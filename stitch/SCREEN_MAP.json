@@ -1,0 +1,20 @@
+[
+  {
+    "screenId": "0ad6266a37e047159b96959cbcabaa14",
+    "name": "Game Settings - NeonRail Lite",
+    "type": "settings",
+    "description": "Game Settings - NeonRail Lite screen",
+    "surfaceIds": [
+      "SURF_GAME_SETTINGS"
+    ]
+  },
+  {
+    "screenId": "076a00117f23487a86f9dbe677752dd4",
+    "name": "Gameplay - NeonRail Lite",
+    "type": "game",
+    "description": "Gameplay - NeonRail Lite screen",
+    "surfaceIds": [
+      "SURF_GAMEPLAY"
+    ]
+  }
+]

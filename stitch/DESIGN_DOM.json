@@ -1,0 +1,706 @@
+{
+  "generatedAt": "2026-06-01T09:25:42.782Z",
+  "screenCount": 2,
+  "screens": {
+    "076a00117f23487a86f9dbe677752dd4": {
+      "screenId": "076a00117f23487a86f9dbe677752dd4",
+      "materialSymbolsRequired": false,
+      "sections": [
+        {
+          "tag": "nav",
+          "layout": "absolute",
+          "classes": [
+            "fixed",
+            "top-0",
+            "w-full",
+            "bg-transparent",
+            "text-primary",
+            "dark:text-primary-fixed",
+            "font-headline-md",
+            "text-headline-md",
+            "tracking-tighter",
+            "bg-gradient-to-b"
+          ],
+          "childCount": 2
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "pause",
+          "classes": [
+            "material-symbols-outlined",
+            "hover:text-primary",
+            "hover:drop-shadow-[0_0_10px_rgba(225,253,255,1)]",
+            "transition-all"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "bolt",
+          "classes": [
+            "material-symbols-outlined",
+            "hover:text-primary",
+            "hover:drop-shadow-[0_0_10px_rgba(225,253,255,1)]",
+            "transition-all"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "NEONRAIL LITE",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [],
+      "navLinks": [],
+      "cards": [],
+      "icons": [],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "tertiary-container": "#34fc0d",
+        "on-surface": "#e5e1e4",
+        "surface-tint": "#00dbe7",
+        "tertiary-fixed-dim": "#2ae500",
+        "surface-container": "#201f21",
+        "on-secondary": "#66002c",
+        "on-primary": "#00363a",
+        "on-primary-fixed-variant": "#004f54",
+        "on-surface-variant": "#b9cacb",
+        "on-tertiary": "#053900",
+        "on-error-container": "#ffdad6",
+        "primary-fixed": "#74f5ff",
+        "surface-bright": "#39393b",
+        "surface-dim": "#131315",
+        "inverse-primary": "#00696f",
+        "surface-container-lowest": "#0e0e10",
+        "primary-container": "#00f2ff",
+        "surface-container-high": "#2a2a2c",
+        "inverse-on-surface": "#313032",
+        "surface-container-low": "#1c1b1d",
+        "secondary-container": "#ff4b89",
+        "tertiary-fixed": "#79ff5b",
+        "on-secondary-container": "#590026",
+        "on-error": "#690005",
+        "error-container": "#93000a",
+        "secondary-fixed-dim": "#ffb1c3",
+        "on-primary-container": "#006a71",
+        "inverse-surface": "#e5e1e4",
+        "on-secondary-fixed": "#3f0019",
+        "surface": "#131315",
+        "secondary-fixed": "#ffd9e0",
+        "on-tertiary-fixed-variant": "#095300",
+        "outline": "#849495",
+        "surface-container-highest": "#353437",
+        "primary-fixed-dim": "#00dbe7",
+        "on-primary-fixed": "#002022",
+        "on-secondary-fixed-variant": "#8f0041",
+        "on-tertiary-fixed": "#022100",
+        "tertiary": "#e4ffd6",
+        "on-background": "#e5e1e4",
+        "secondary": "#ffb1c3",
+        "background": "#131315",
+        "on-tertiary-container": "#106f00",
+        "outline-variant": "#3a494b",
+        "error": "#ffb4ab",
+        "surface-variant": "#353437",
+        "primary": "#e1fdff"
+      },
+      "fonts": [
+        "Hanken Grotesk",
+        "JetBrains Mono",
+        "Sora",
+        "Material Symbols Outlined"
+      ],
+      "layoutHints": {
+        "flexDirection": "col",
+        "gap": "16"
+      },
+      "behaviorContract": [
+        {
+          "kind": "button",
+          "label": "pause",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "bolt",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "NEONRAIL LITE",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "NEONRAIL LITE",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "pause",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "bolt",
+          "icon": null,
+          "active": true
+        }
+      ],
+      "title": "Gameplay - NeonRail Lite"
+    },
+    "0ad6266a37e047159b96959cbcabaa14": {
+      "screenId": "0ad6266a37e047159b96959cbcabaa14",
+      "materialSymbolsRequired": true,
+      "sections": [
+        {
+          "tag": "nav",
+          "layout": "flex-col",
+          "classes": [
+            "hidden",
+            "md:flex",
+            "flex-col",
+            "h-full",
+            "py-8",
+            "bg-surface-container/20",
+            "backdrop-blur-xl",
+            "fixed",
+            "left-0",
+            "top-0"
+          ],
+          "childCount": 8
+        },
+        {
+          "tag": "main",
+          "layout": "flex-col",
+          "classes": [
+            "relative",
+            "z-10",
+            "flex-1",
+            "flex",
+            "flex-col",
+            "items-center",
+            "justify-center",
+            "p-margin-mobile",
+            "md:p-margin-desktop",
+            "md:ml-64"
+          ],
+          "childCount": 32
+        }
+      ],
+      "buttons": [
+        {
+          "kind": "button",
+          "label": "UPGRADE CORE",
+          "classes": [
+            "w-full",
+            "py-3",
+            "cyber-button",
+            "font-label-sm",
+            "text-label-sm",
+            "uppercase",
+            "tracking-widest",
+            "text-primary-fixed"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "pause",
+          "classes": [
+            "text-primary",
+            "dark:text-primary-fixed",
+            "hover:text-primary",
+            "hover:drop-shadow-[0_0_10px_rgba(225,253,255,1)]",
+            "transition-all",
+            "duration-150",
+            "active:scale-95"
+          ],
+          "icon": "pause",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "close",
+          "classes": [
+            "text-on-surface-variant",
+            "hover:text-primary-fixed",
+            "transition-colors"
+          ],
+          "icon": "close",
+          "action": "dismiss",
+          "expectedBehavior": "close dialog/panel or return to previous state"
+        },
+        {
+          "kind": "button",
+          "label": "Casual",
+          "classes": [
+            "flex-1",
+            "py-2",
+            "cyber-button",
+            "font-label-sm",
+            "text-label-sm",
+            "uppercase",
+            "text-on-surface-variant",
+            "hover:text-primary-fixed"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Pilot",
+          "classes": [
+            "flex-1",
+            "py-2",
+            "cyber-button",
+            "active",
+            "font-label-sm",
+            "text-label-sm",
+            "uppercase"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Elite",
+          "classes": [
+            "flex-1",
+            "py-2",
+            "cyber-button",
+            "font-label-sm",
+            "text-label-sm",
+            "uppercase",
+            "text-error",
+            "hover:text-error",
+            "hover:border-error",
+            "hover:shadow-[0_0_12px_rgba(255,180,171,0.5)]",
+            "hover:bg-error/10"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Reset Defaults",
+          "classes": [
+            "cyber-button",
+            "px-6",
+            "py-3",
+            "font-label-sm",
+            "text-label-sm",
+            "uppercase",
+            "tracking-widest",
+            "text-on-surface-variant",
+            "hover:text-error",
+            "hover:border-error"
+          ],
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Apply Config",
+          "classes": [
+            "cyber-button",
+            "px-6",
+            "py-3",
+            "font-label-sm",
+            "text-label-sm",
+            "uppercase",
+            "tracking-widest",
+            "text-primary-fixed"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Return to Runway",
+          "classes": [
+            "bg-primary-fixed",
+            "text-on-primary-fixed",
+            "px-8",
+            "py-3",
+            "font-label-sm",
+            "text-label-sm",
+            "uppercase",
+            "tracking-widest",
+            "font-bold",
+            "shadow-[0_0_15px_rgba(116,245,255,0.6)]",
+            "hover:bg-primary-fixed-dim",
+            "transition-colors"
+          ],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "NEONRAIL",
+          "classes": [],
+          "icon": "person",
+          "action": "navigate",
+          "expectedRoute": "/profile",
+          "routeInferred": true,
+          "expectedBehavior": "navigate:/profile"
+        },
+        {
+          "kind": "button",
+          "label": "OPERATOR_01",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "RANK: ELITE",
+          "classes": [],
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        }
+      ],
+      "inputs": [
+        {
+          "kind": "input",
+          "type": "range",
+          "label": "range",
+          "placeholder": "",
+          "name": "",
+          "classes": [],
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "navLinks": [
+        {
+          "kind": "link",
+          "label": "RUNWAY",
+          "href": "#",
+          "classes": [
+            "material-symbols-outlined"
+          ],
+          "icon": "speed",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "ARSENAL",
+          "href": "#",
+          "classes": [
+            "material-symbols-outlined"
+          ],
+          "icon": "shield",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "CIRCUITS",
+          "href": "#",
+          "classes": [
+            "material-symbols-outlined"
+          ],
+          "icon": "settings_input_component",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "SYSTEMS",
+          "href": "#",
+          "classes": [
+            "material-symbols-outlined"
+          ],
+          "icon": "settings",
+          "action": "navigate",
+          "expectedBehavior": "navigate:#"
+        }
+      ],
+      "cards": [],
+      "icons": [
+        "person",
+        "speed",
+        "shield",
+        "settings_input_component",
+        "settings",
+        "pause",
+        "close",
+        "bolt",
+        "volume_up",
+        "keyboard"
+      ],
+      "images": [],
+      "cssVars": {},
+      "colorPalette": {
+        "tertiary-container": "#34fc0d",
+        "on-surface": "#e5e1e4",
+        "surface-tint": "#00dbe7",
+        "tertiary-fixed-dim": "#2ae500",
+        "surface-container": "#201f21",
+        "on-secondary": "#66002c",
+        "on-primary": "#00363a",
+        "on-primary-fixed-variant": "#004f54",
+        "on-surface-variant": "#b9cacb",
+        "on-tertiary": "#053900",
+        "on-error-container": "#ffdad6",
+        "primary-fixed": "#74f5ff",
+        "surface-bright": "#39393b",
+        "surface-dim": "#131315",
+        "inverse-primary": "#00696f",
+        "surface-container-lowest": "#0e0e10",
+        "primary-container": "#00f2ff",
+        "surface-container-high": "#2a2a2c",
+        "inverse-on-surface": "#313032",
+        "surface-container-low": "#1c1b1d",
+        "secondary-container": "#ff4b89",
+        "tertiary-fixed": "#79ff5b",
+        "on-secondary-container": "#590026",
+        "on-error": "#690005",
+        "error-container": "#93000a",
+        "secondary-fixed-dim": "#ffb1c3",
+        "on-primary-container": "#006a71",
+        "inverse-surface": "#e5e1e4",
+        "on-secondary-fixed": "#3f0019",
+        "surface": "#131315",
+        "secondary-fixed": "#ffd9e0",
+        "on-tertiary-fixed-variant": "#095300",
+        "outline": "#849495",
+        "surface-container-highest": "#353437",
+        "primary-fixed-dim": "#00dbe7",
+        "on-primary-fixed": "#002022",
+        "on-secondary-fixed-variant": "#8f0041",
+        "on-tertiary-fixed": "#022100",
+        "tertiary": "#e4ffd6",
+        "on-background": "#e5e1e4",
+        "secondary": "#ffb1c3",
+        "background": "#131315",
+        "on-tertiary-container": "#106f00",
+        "outline-variant": "#3a494b",
+        "error": "#ffb4ab",
+        "surface-variant": "#353437",
+        "primary": "#e1fdff"
+      },
+      "fonts": [
+        "Material Symbols Outlined",
+        "Sora",
+        "JetBrains Mono",
+        "Hanken Grotesk"
+      ],
+      "layoutHints": {
+        "gridCols": 1,
+        "flexDirection": "col",
+        "gap": "4"
+      },
+      "behaviorContract": [
+        {
+          "kind": "link",
+          "label": "RUNWAY",
+          "icon": "speed",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "ARSENAL",
+          "icon": "shield",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "CIRCUITS",
+          "icon": "settings_input_component",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "link",
+          "label": "SYSTEMS",
+          "icon": "settings",
+          "route": "#",
+          "expectedBehavior": "navigate:#"
+        },
+        {
+          "kind": "button",
+          "label": "UPGRADE CORE",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "pause",
+          "icon": "pause",
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "close",
+          "icon": "close",
+          "action": "dismiss",
+          "expectedBehavior": "close dialog/panel or return to previous state"
+        },
+        {
+          "kind": "button",
+          "label": "Casual",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Pilot",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Elite",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Reset Defaults",
+          "icon": null,
+          "action": "reset",
+          "expectedBehavior": "reset visible value/state, with confirmation if destructive"
+        },
+        {
+          "kind": "button",
+          "label": "Apply Config",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "Return to Runway",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "NEONRAIL",
+          "icon": "person",
+          "action": "navigate",
+          "route": "/profile",
+          "expectedBehavior": "navigate:/profile"
+        },
+        {
+          "kind": "button",
+          "label": "OPERATOR_01",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "button",
+          "label": "RANK: ELITE",
+          "icon": null,
+          "action": "click-action",
+          "expectedBehavior": "produce visible DOM/state/URL feedback; never empty onClick"
+        },
+        {
+          "kind": "input",
+          "label": "range",
+          "type": "range",
+          "placeholder": "",
+          "expectedBehavior": "controlled value with onChange; validation if required by PRD"
+        }
+      ],
+      "tabBar": [
+        {
+          "kind": "button",
+          "label": "NEONRAIL",
+          "icon": "person",
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "OPERATOR_01",
+          "icon": null,
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "RANK: ELITE",
+          "icon": null,
+          "active": false
+        },
+        {
+          "kind": "link",
+          "label": "RUNWAY",
+          "icon": "speed",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "ARSENAL",
+          "icon": "shield",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "CIRCUITS",
+          "icon": "settings_input_component",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "link",
+          "label": "SYSTEMS",
+          "icon": "settings",
+          "route": "#",
+          "active": true
+        },
+        {
+          "kind": "button",
+          "label": "UPGRADE CORE",
+          "icon": null,
+          "active": true
+        }
+      ],
+      "title": "Game Settings - NeonRail Lite"
+    }
+  }
+}
