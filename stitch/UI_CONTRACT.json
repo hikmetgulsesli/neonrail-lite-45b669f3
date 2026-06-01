@@ -1,0 +1,228 @@
+[
+  {
+    "screenId": "0ad6266a37e047159b96959cbcabaa14",
+    "screenTitle": "Game Settings - NeonRail Lite",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "RUNWAY",
+        "href": "#",
+        "line": 175
+      },
+      {
+        "type": "link",
+        "label": "ARSENAL",
+        "href": "#",
+        "line": 179
+      },
+      {
+        "type": "link",
+        "label": "CIRCUITS",
+        "href": "#",
+        "line": 183
+      },
+      {
+        "type": "link",
+        "label": "SYSTEMS",
+        "href": "#",
+        "line": 188
+      },
+      {
+        "type": "button",
+        "label": "UPGRADE CORE",
+        "line": 194
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 205
+      },
+      {
+        "type": "button",
+        "label": "close",
+        "line": 214
+      },
+      {
+        "type": "button",
+        "label": "Casual",
+        "line": 229
+      },
+      {
+        "type": "button",
+        "label": "Pilot",
+        "line": 230
+      },
+      {
+        "type": "button",
+        "label": "Elite",
+        "line": 231
+      },
+      {
+        "type": "button",
+        "label": "Reset Defaults",
+        "line": 308
+      },
+      {
+        "type": "button",
+        "label": "Apply Config",
+        "line": 312
+      },
+      {
+        "type": "button",
+        "label": "Return to Runway",
+        "line": 315
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 244
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 264
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 271
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "RUNWAY",
+        "href": "#",
+        "line": 175
+      },
+      {
+        "type": "link",
+        "label": "ARSENAL",
+        "href": "#",
+        "line": 179
+      },
+      {
+        "type": "link",
+        "label": "CIRCUITS",
+        "href": "#",
+        "line": 183
+      },
+      {
+        "type": "link",
+        "label": "SYSTEMS",
+        "href": "#",
+        "line": 188
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "UPGRADE CORE",
+        "line": 194
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 205
+      },
+      {
+        "type": "button",
+        "label": "close",
+        "line": 214
+      },
+      {
+        "type": "button",
+        "label": "Casual",
+        "line": 229
+      },
+      {
+        "type": "button",
+        "label": "Pilot",
+        "line": 230
+      },
+      {
+        "type": "button",
+        "label": "Elite",
+        "line": 231
+      },
+      {
+        "type": "button",
+        "label": "Reset Defaults",
+        "line": 308
+      },
+      {
+        "type": "button",
+        "label": "Apply Config",
+        "line": 312
+      },
+      {
+        "type": "button",
+        "label": "Return to Runway",
+        "line": 315
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 244
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 264
+      },
+      {
+        "type": "input",
+        "label": "range",
+        "inputType": "range",
+        "line": 271
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 16,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "076a00117f23487a86f9dbe677752dd4",
+    "screenTitle": "Gameplay - NeonRail Lite",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 288
+      },
+      {
+        "type": "button",
+        "label": "bolt",
+        "line": 291
+      }
+    ],
+    "navigation": [],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 288
+      },
+      {
+        "type": "button",
+        "label": "bolt",
+        "line": 291
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 2,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]

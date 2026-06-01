@@ -1,0 +1,118 @@
+[
+  {
+    "screenId": "0ad6266a37e047159b96959cbcabaa14",
+    "title": "Game Settings - NeonRail Lite",
+    "componentName": "GameSettingsNeonrailLite",
+    "file": "src/screens/GameSettingsNeonrailLite.tsx",
+    "buttons": 9,
+    "inputs": 3,
+    "links": 4,
+    "actions": [
+      {
+        "id": "upgrade-core-1",
+        "kind": "button",
+        "label": "UPGRADE CORE",
+        "index": 0
+      },
+      {
+        "id": "pause-2",
+        "kind": "button",
+        "label": "Pause",
+        "index": 1
+      },
+      {
+        "id": "close-3",
+        "kind": "button",
+        "label": "Close",
+        "index": 2
+      },
+      {
+        "id": "casual-4",
+        "kind": "button",
+        "label": "Casual",
+        "index": 3
+      },
+      {
+        "id": "pilot-5",
+        "kind": "button",
+        "label": "Pilot",
+        "index": 4
+      },
+      {
+        "id": "elite-6",
+        "kind": "button",
+        "label": "Elite",
+        "index": 5
+      },
+      {
+        "id": "reset-defaults-7",
+        "kind": "button",
+        "label": "Reset Defaults",
+        "index": 6
+      },
+      {
+        "id": "apply-config-8",
+        "kind": "button",
+        "label": "Apply Config",
+        "index": 7
+      },
+      {
+        "id": "return-to-runway-9",
+        "kind": "button",
+        "label": "Return to Runway",
+        "index": 8
+      },
+      {
+        "id": "runway-1",
+        "kind": "link",
+        "label": "RUNWAY",
+        "href": "#",
+        "index": 0
+      },
+      {
+        "id": "arsenal-2",
+        "kind": "link",
+        "label": "ARSENAL",
+        "href": "#",
+        "index": 1
+      },
+      {
+        "id": "circuits-3",
+        "kind": "link",
+        "label": "CIRCUITS",
+        "href": "#",
+        "index": 2
+      },
+      {
+        "id": "systems-4",
+        "kind": "link",
+        "label": "SYSTEMS",
+        "href": "#",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "screenId": "076a00117f23487a86f9dbe677752dd4",
+    "title": "Gameplay - NeonRail Lite",
+    "componentName": "GameplayNeonrailLite",
+    "file": "src/screens/GameplayNeonrailLite.tsx",
+    "buttons": 2,
+    "inputs": 0,
+    "links": 0,
+    "actions": [
+      {
+        "id": "pause-1",
+        "kind": "button",
+        "label": "Pause",
+        "index": 0
+      },
+      {
+        "id": "energy-settings-2",
+        "kind": "button",
+        "label": "Energy Settings",
+        "index": 1
+      }
+    ]
+  }
+]
